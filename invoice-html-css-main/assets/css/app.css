@@ -7,7 +7,7 @@
 }
 
 body {
-
+    
     background: #6c5ce7;
     color:#FFF;
 
@@ -48,7 +48,7 @@ body {
 .card__content--header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 20px; 
     padding: 30px;
 }
 
@@ -100,7 +100,7 @@ table {
     display: flex;
     justify-content: flex-start;
     list-style: none;
-
+  
 }
 
 .table--filter--link--active {
@@ -177,7 +177,7 @@ ul {
     padding-bottom: 10px;
     padding-right: 20px;
     padding-left: 40px;
-
+   
 }
 
 .table--heading {
@@ -259,7 +259,7 @@ ul {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     padding: 10px 30px !important;
-
+    
 }
 
 .table__footer--subtotal {
@@ -354,13 +354,13 @@ ul {
 }
 
 .modal__title {
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
 
 .modal__items {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;  
 }
 
 .inputAdd {
@@ -392,7 +392,7 @@ ul {
     justify-content: flex-end;
     align-items: center;
     margin-top: 20px;
-
+    
 }
 
 .btn {
@@ -427,11 +427,11 @@ ul {
     list-style: none;
     margin-top: 10px;
     margin-bottom: 10px;
-
+    
 }
 
 .invoice {
-    background:white ;
+    background:white ; 
     color:black
 }
 
@@ -443,8 +443,8 @@ ul {
 }
 
 .invoice__header--title {
-    background-color: #fca120;
-    display: grid;
+    background-color: #fca120; 
+    display: grid; 
     grid-template-columns: 65% 1fr 1fr;
     margin-top: 80px;
 }
@@ -504,7 +504,7 @@ ul {
     grid-gap: 10px;
     padding: 10px 30px !important;
     font-weight: 900;
-    background-color:black;
+    background-color:black; 
     color:white;
     font-size: 20px;
 }
