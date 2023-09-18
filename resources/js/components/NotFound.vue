@@ -2,6 +2,6 @@
     <h1>
         Not Found
     </h1>
-    <br>
+    <br />
     <router-link to="/">Back to home page</router-link>
 </template>
