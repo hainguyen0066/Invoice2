@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\InvoiceController;
+use App\Http\Controllers\CustomerController;
+use App\Http\Controllers\ProductController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -22,3 +24,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('/getAllInvoice', [InvoiceController::class, 'getAllInvoices']);
 Route::get('/serachInvoice', [InvoiceController::class, 'searchInvoice']);
 Route::get('/createInvoice', [InvoiceController::class, 'createInvoice']);
+Route::get('/getAllcustomers', [CustomerController::class, 'getAllCustomer']);
+Route::get('/getAllProducts', [ProductController::class, 'getAllProduct']);
+Route::post('/addInvoice', [InvoiceController::class, 'addInvoice']);
